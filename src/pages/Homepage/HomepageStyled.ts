@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 const HomepageStyled = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: pink;
+  text-align: center;
 `;
 
 export default HomepageStyled;
