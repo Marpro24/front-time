@@ -7,9 +7,10 @@ const NotFoundPageStyled = styled.main`
 
   .not-found {
     &__post-it {
-      margin-top: 50px;
+      margin: 50px 0 50px 0;
       position: relative;
       object-fit: contain;
+      height: inherit;
     }
 
     &__text {
@@ -19,45 +20,45 @@ const NotFoundPageStyled = styled.main`
       transform: rotate(-5deg);
       margin-left: 30px;
 
-      &-text {
+      &--no-encontrada {
         text-transform: uppercase;
-        margin-top: 208px;
-        font-size: 2.3rem;
+        margin-top: 180px;
+        font-size: 2rem;
       }
 
-      &-404 {
+      &--404 {
         font-size: 3.8rem;
-        margin-top: 300px;
+        margin-top: 250px;
       }
     }
   }
 
   @media (max-width: 488px) {
     .not-found__text {
-      &-text {
-        font-size: 2.2rem;
-        margin-top: 210px;
+      &--no-encontrada {
+        font-size: 1.8;
+        margin-top: 180px;
       }
     }
   }
 
   @media (max-width: 465px) {
     .not-found__text {
-      &-text {
-        font-size: 2rem;
-        margin-top: 215px;
+      &--no-encontrada {
+        font-size: 1.6;
+        margin-top: 180px;
       }
     }
   }
 
   @media (max-width: 416px) {
     .not-found__text {
-      &-text {
+      &--no-encontrada {
         font-size: 1.7rem;
-        margin-top: 220px;
+        margin-top: 180px;
       }
 
-      &-404 {
+      &--404 {
         font-size: 3.3rem;
       }
     }
@@ -65,12 +66,12 @@ const NotFoundPageStyled = styled.main`
 
   @media (max-width: 369px) {
     .not-found__text {
-      &-text {
+      &--no-encontrada {
         font-size: 1.5rem;
-        margin-top: 230px;
+        margin-top: 190px;
       }
 
-      &-404 {
+      &--404 {
         font-size: 3rem;
       }
     }
