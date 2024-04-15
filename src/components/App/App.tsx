@@ -1,14 +1,19 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Homepage from "../../pages/Homepage/Homepage";
 import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage";
+import Footer from "../Footer/Footer";
+import AppStyled from "./AppStyled";
 
 const App = (): React.ReactElement => {
   return (
-    <Routes>
-      <Route path="/" element={<Navigate to="/home" />} />
-      <Route path="/home" element={<Homepage />} />
-      <Route path="*" element={<NotFoundPage />} />
-    </Routes>
+    <AppStyled>
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<Homepage />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+      <Footer />
+    </AppStyled>
   );
 };
 
