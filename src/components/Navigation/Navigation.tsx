@@ -13,14 +13,15 @@ const Navigation = (): React.ReactElement => {
   return (
     <NavigationStyled>
       {!isNavOpen ? (
-        <button key="open-menu" onClick={toggleNav}>
+        <button className="nav-button" onClick={toggleNav}>
           <FaBars className="open-menu-icon" />
         </button>
       ) : (
         ""
       )}
+
       {isNavOpen ? (
-        <button key="close-menu" onClick={toggleNav}>
+        <button className="nav-button" onClick={toggleNav}>
           <FaTimes className="closed-menu-icon" />
         </button>
       ) : (
