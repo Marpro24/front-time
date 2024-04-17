@@ -10,14 +10,14 @@ const App = (): React.ReactElement => {
     <>
       <Header />
       <AppStyled>
-      <Routes>
+        <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Homepage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        <Footer />
+      </AppStyled>
     </>
-      <Footer />
-    </AppStyled>
   );
 };
 
