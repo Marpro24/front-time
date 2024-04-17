@@ -6,6 +6,7 @@ const HeaderStyled = styled.header`
   width: 100%;
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding: 10px;
 
