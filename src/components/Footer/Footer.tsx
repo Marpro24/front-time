@@ -10,26 +10,14 @@ const Footer = (): React.ReactElement => {
       </a>
       <span className="footer__siguenos">Síguenos en</span>
       <div className="redes__icon">
-        <a
-          target="_blank"
-          className="redes__icon--tw"
-          href="https://twitter.com/i/flow/login"
-        >
-          <FaTwitter className="logo logo--tw" />
+        <a target="_blank" href="https://twitter.com/i/flow/login">
+          <FaTwitter className="redes__icon--all redes__icon--tw" />
         </a>
-        <a
-          target="_blank"
-          className="redes__icon-ig"
-          href="https://www.instagram.com/"
-        >
-          <FaInstagram className="logo logo--ig" />
+        <a target="_blank" href="https://www.instagram.com/">
+          <FaInstagram className="redes__icon--all redes__icon--ig" />
         </a>
-        <a
-          target="_blank"
-          className="redes__icon-fb"
-          href="https://www.facebook.com/"
-        >
-          <FaFacebook className="logo logo--fb" />
+        <a target="_blank" href="https://www.facebook.com/">
+          <FaFacebook className="redes__icon--all redes__icon--fb" />
         </a>
       </div>
     </FooterStyled>
