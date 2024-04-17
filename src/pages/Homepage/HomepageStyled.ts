@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-const HomepageStyled = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: ${({ theme }) => theme.color.shellColor};
-`;
+const HomepageStyled = styled.main``;
 
 export default HomepageStyled;
