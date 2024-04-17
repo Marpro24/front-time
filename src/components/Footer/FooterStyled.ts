@@ -10,26 +10,54 @@ const FooterStyled = styled.div`
   position: absolute;
   bottom: 0;
   height: 57px;
-  font-size: 1rem;
+  font-size: 0.6rem;
   width: 100%;
 
-  .logo {
-    height: inherit;
-    width: 2rem;
+  .redes__icon {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &--all {
+      width: 1.2rem;
+      height: inherit;
+    }
 
     &--tw {
-      margin-right: 45px;
       color: #1c96e8;
     }
 
     &--ig {
-      margin-right: 45px;
       background: linear-gradient(#bb009a, #eb0006, #f5b118);
-      border-radius: 5px;
+      border-radius: 7px;
     }
 
     &--fb {
-      color: #0863f7;
+      color: #0fa6f6;
+    }
+  }
+  @media (min-width: 450px) {
+    font-size: 0.9rem;
+
+    .redes__icon {
+      gap: 15px;
+
+      &--all {
+        width: 1.7rem;
+        height: inherit;
+      }
+    }
+  }
+
+  @media (min-width: 720px) {
+    .redes__icon {
+      gap: 25px;
+    }
+  }
+
+  @media (min-width: 870px) {
+    .redes__icon {
+      gap: 35px;
     }
   }
 `;
