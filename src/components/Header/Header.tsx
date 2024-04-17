@@ -1,9 +1,18 @@
+import { Link } from "react-router-dom";
 import HeaderStyled from "./HeaderStyled";
 
 const Header = (): React.ReactElement => {
   return (
     <HeaderStyled>
-      <img className="header__logo" src="/images/Logo.png" alt="logo chronos" />
+      <Link to={"/home"}>
+        <img
+          className="header__logo"
+          src="/images/Logo.png"
+          alt="logo chronos"
+          width="113"
+          height="68"
+        />
+      </Link>
     </HeaderStyled>
   );
 };
