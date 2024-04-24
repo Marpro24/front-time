@@ -1,21 +1,24 @@
 import styled from "styled-components";
 
 const NavigationStyled = styled.nav`
-  display: flex;
+  .nav-button {
+    padding: 6px;
+  }
 
-  .navigation {
+  .navigation-menu {
     background-color: ${({ theme }) => theme.color.shellColor};
-    padding: 10px;
-    margin-top: 140px;
-    z-index: 1;
+    width: 143px;
   }
 
-  .navigation__text {
+  .navigation-menu__text {
     color: ${({ theme }) => theme.color.mainLightColor};
+    border-top: solid 0.5px;
+    padding: 7px;
+    font-size: 14px;
   }
 
-  .navigation__text {
-    border-top: solid 0.5px;
+  .navigation-menu__link {
+    color: ${({ theme }) => theme.color.buttonColor};
   }
 
   .open-menu-icon {
