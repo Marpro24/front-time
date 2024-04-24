@@ -9,7 +9,7 @@ const Header = (): React.ReactElement => {
       <Link to={"/home"}>
         <img
           className="header__logo"
-          src="/images/CHRONOS.webp"
+          src="/images/CHRONOS-logo.webp"
           alt="logo chronos"
           width="113"
           height="68"
