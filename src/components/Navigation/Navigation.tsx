@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-import NavigationStyled from "./NavigationStyled";
 import { NavLink } from "react-router-dom";
+import NavigationStyled from "./NavigationStyled";
 
 const Navigation = (): React.ReactElement => {
   const [isNavOpen, setIsNavOpen] = useState(false);
