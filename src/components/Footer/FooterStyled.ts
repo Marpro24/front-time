@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FooterStyled = styled.div`
-  background-color: ${({ theme }) => theme.color.shellColor};
+  background-color: ${({ theme }) => theme.color.backgroundMainDarkColor};
   color: ${({ theme }) => theme.color.mainLightColor};
   text-transform: uppercase;
   display: flex;

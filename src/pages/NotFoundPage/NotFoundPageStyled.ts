@@ -14,7 +14,7 @@ const NotFoundPageStyled = styled.main`
     }
 
     &__text {
-      font-family: ${({ theme }) => theme.font.notFoundFontFamily};
+      font-family: ${({ theme }) => theme.font.secondaryFontFamily};
       font-weight: 100;
       position: absolute;
       transform: rotate(-5deg);

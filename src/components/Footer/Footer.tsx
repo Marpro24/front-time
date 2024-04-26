@@ -11,13 +11,22 @@ const Footer = (): React.ReactElement => {
       <span className="footer__siguenos">Síguenos en</span>
       <div className="redes__icon">
         <a target="_blank" href="https://twitter.com/i/flow/login">
-          <FaTwitter className="redes__icon--all redes__icon--tw" />
+          <FaTwitter
+            aria-label="logo twitter"
+            className="redes__icon--all redes__icon--tw"
+          />
         </a>
         <a target="_blank" href="https://www.instagram.com/">
-          <FaInstagram className="redes__icon--all redes__icon--ig" />
+          <FaInstagram
+            aria-label="logo instagram"
+            className="redes__icon--all redes__icon--ig"
+          />
         </a>
         <a target="_blank" href="https://www.facebook.com/">
-          <FaFacebook className="redes__icon--all redes__icon--fb" />
+          <FaFacebook
+            aria-label="logo facebook"
+            className="redes__icon--all redes__icon--fb"
+          />
         </a>
       </div>
     </FooterStyled>

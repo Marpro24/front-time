@@ -6,7 +6,7 @@ const NavigationStyled = styled.nav`
   }
 
   .navigation-menu {
-    background-color: ${({ theme }) => theme.color.shellColor};
+    background-color: ${({ theme }) => theme.color.backgroundMainDarkColor};
     width: 143px;
   }
 
@@ -18,7 +18,7 @@ const NavigationStyled = styled.nav`
   }
 
   .navigation-menu__link {
-    color: ${({ theme }) => theme.color.buttonColor};
+    color: ${({ theme }) => theme.color.backgroundMustardColor};
   }
 
   .open-menu-icon {
@@ -30,7 +30,7 @@ const NavigationStyled = styled.nav`
   }
 
   .active {
-    color: ${({ theme }) => theme.color.buttonColor};
+    color: ${({ theme }) => theme.color.backgroundMustardColor};
   }
 `;
 

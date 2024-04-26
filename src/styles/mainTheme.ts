@@ -2,18 +2,17 @@ import { DefaultTheme } from "styled-components";
 
 const mainTheme: DefaultTheme = {
   color: {
-    mainDarkColor: "#000",
     mainLightColor: "#fff",
-    loginBackgroundColor: "#5b5c56",
-    shellColor: "#002e36",
-    buttonColor: "#e3a92b",
-    formColor: "#64b298",
+    backgroundDarkColor: "#5b5c56",
+    backgroundMainDarkColor: "#002e36",
+    backgroundMustardColor: "#e3a92b",
+    backgroundLightColor: "#64b298",
     positiveToastColor: "#17f448",
     negativeToastColor: "#f14b4b",
   },
   font: {
     mainFontFamily: "'Fraunces', sans-serif",
-    notFoundFontFamily: "'Schoolbell', cursive",
+    secondaryFontFamily: "'Schoolbell', cursive",
   },
 };
 
