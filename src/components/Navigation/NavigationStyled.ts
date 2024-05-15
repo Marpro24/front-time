@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const NavigationStyled = styled.nav`
+  z-index: 2;
+
   .nav-button {
     padding: 6px;
   }

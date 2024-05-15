@@ -6,10 +6,16 @@ const HeaderStyled = styled.header`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
 
-  .header__logo {
-    object-fit: cover;
-    margin-top: -15px;
+  .header__link {
+    z-index: 10;
+
+    &--logo {
+      object-fit: cover;
+      margin-top: -15px;
+    }
   }
 `;
 
