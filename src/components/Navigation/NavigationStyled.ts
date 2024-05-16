@@ -9,7 +9,7 @@ const NavigationStyled = styled.nav`
 
   .navigation-menu {
     background-color: ${({ theme }) => theme.color.backgroundMainDarkColor};
-    width: 143px;
+    width: 160px;
   }
 
   .navigation-menu__text {
