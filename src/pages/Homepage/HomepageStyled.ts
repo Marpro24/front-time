@@ -25,8 +25,7 @@ const HomepageStyled = styled.main`
 
     &__image {
       background-image: url("/images/homepage-hero-1.webp");
-      background-size: 100%;
-      width: 100vw;
+      background-size: 100vw;
       height: 200px;
       margin-top: 32px;
       opacity: 0.6;
@@ -43,6 +42,7 @@ const HomepageStyled = styled.main`
       &__image {
         background-image: url("/images/homepage-hero-2.webp");
         height: 350px;
+        width: 100%;
       }
     }
   }
@@ -51,7 +51,7 @@ const HomepageStyled = styled.main`
     .hero {
       &__image {
         background-image: url("/images/homepage-hero-3.webp");
-        height: 600px;
+        height: 500px;
       }
     }
   }
