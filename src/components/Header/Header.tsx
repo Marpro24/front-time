@@ -6,9 +6,9 @@ const Header = (): React.ReactElement => {
   return (
     <HeaderStyled>
       <Navigation />
-      <Link to={"/home"}>
+      <Link className="header__link" to={"/home"}>
         <img
-          className="header__logo"
+          className="header__link--logo"
           src="/images/CHRONOS-logo.webp"
           alt="logo chronos"
           width="113"

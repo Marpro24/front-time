@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import NavigationStyled from "./NavigationStyled";
 
@@ -39,19 +38,29 @@ const Navigation = (): React.ReactElement => {
       {isNavOpen ? (
         <ul className="navigation-menu">
           <li className="navigation-menu__text">
-            <NavLink to="/home">Inicio</NavLink>
+            <NavLink aria-label="inicio" to="/home">
+              Inicio
+            </NavLink>
           </li>
           <li className="navigation-menu__text">
-            <NavLink to="/">Sobre nosotras</NavLink>
+            <NavLink aria-label="sobre-nosotros" to="/">
+              Sobre nosotras
+            </NavLink>
           </li>
           <li className="navigation-menu__text">
-            <NavLink to="/">Categorías</NavLink>
+            <NavLink aria-label="categorias" to="/">
+              Categorías
+            </NavLink>
           </li>
           <li className="navigation-menu__text">
-            <NavLink to="/">Donar horas</NavLink>
+            <NavLink aria-label="donar-horas" to="/">
+              Donar horas
+            </NavLink>
           </li>
           <li className="navigation-menu__text">
-            <NavLink to="/">Contacto</NavLink>
+            <NavLink aria-label="contacto" to="/">
+              Contacto
+            </NavLink>
           </li>
         </ul>
       ) : (
